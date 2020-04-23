@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;YUL262RTX&lt;/b&gt; - RF module
+
+&lt;p&gt;Devices:
+&lt;ul&gt;
+&lt;li&gt;YUL262RTX&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<packages>
+<package name="YUL262RTX">
+<pad name="VCC.24" x="-7.62" y="-13.97" drill="0.9"/>
+<pad name="VCC.23" x="-7.62" y="-11.43" drill="0.9"/>
+<pad name="SW2.22" x="-7.62" y="-8.89" drill="0.9"/>
+<pad name="SW1.21" x="-7.62" y="-6.35" drill="0.9"/>
+<pad name="SEL_EXT_DIPS.20" x="-7.62" y="-3.81" drill="0.9"/>
+<pad name="OPTION.19" x="-7.62" y="-1.27" drill="0.9"/>
+<pad name="EXT_DIPS_EN/CH3.18" x="-7.62" y="1.27" drill="0.9"/>
+<pad name="RESERVED.17" x="-7.62" y="3.81" drill="0.9"/>
+<pad name="RX.16" x="-7.62" y="6.35" drill="0.9"/>
+<pad name="TX.15" x="-7.62" y="8.89" drill="0.9"/>
+<pad name="GPIO0.14" x="-7.62" y="11.43" drill="0.9"/>
+<pad name="EXT_DIPS_DI/CH1.2" x="7.62" y="-11.43" drill="0.9"/>
+<pad name="EXT_DIPS_CLK/CH2.3" x="7.62" y="-8.89" drill="0.9"/>
+<pad name="TX_485.4" x="7.62" y="-6.35" drill="0.9"/>
+<pad name="RESERVED.5" x="7.62" y="-3.81" drill="0.9"/>
+<pad name="OUT1.6" x="7.62" y="-1.27" drill="0.9"/>
+<pad name="OUT2.7" x="7.62" y="1.27" drill="0.9"/>
+<pad name="LED_GRN.8" x="7.62" y="3.81" drill="0.9"/>
+<pad name="RESET.9" x="7.62" y="6.35" drill="0.9"/>
+<pad name="LED_RED.10" x="7.62" y="8.89" drill="0.9"/>
+<pad name="GND.11" x="7.62" y="11.43" drill="0.9"/>
+<pad name="ANT.12" x="7.62" y="13.97" drill="0.9"/>
+<dimension x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" x3="0" y3="-19.05" textsize="1.27" layer="21"/>
+<dimension x1="-7.62" y1="-15.24" x2="-7.62" y2="24.13" x3="-11.43" y3="4.445" textsize="1.27" layer="21"/>
+<wire x1="-8.89" y1="-15.24" x2="-8.89" y2="24.13" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="24.13" x2="8.89" y2="24.13" width="0.127" layer="21"/>
+<wire x1="8.89" y1="24.13" x2="8.89" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-15.24" x2="-7.62" y2="-15.24" width="0.127" layer="21"/>
+<text x="-5.08" y="19.05" size="1.27" layer="21">YUL262RTX</text>
+<pad name="GPIO0.13" x="-7.62" y="13.97" drill="0.9" shape="square"/>
+<pad name="GND.1" x="7.62" y="-13.97" drill="0.9" shape="square"/>
+</package>
+</packages>
+<symbols>
+<symbol name="YUL262RTX">
+<pin name="GIPO0.13" x="-45.72" y="12.7" length="middle"/>
+<pin name="GIPO1.14" x="-45.72" y="10.16" length="middle"/>
+<pin name="TX.15" x="-45.72" y="7.62" length="middle"/>
+<pin name="RX.16" x="-45.72" y="5.08" length="middle"/>
+<pin name="RESERVED.17" x="-45.72" y="2.54" length="middle"/>
+<pin name="EXT_DIPS_EN/CH3.18" x="-45.72" y="0" length="middle"/>
+<pin name="OPTION.19" x="-45.72" y="-2.54" length="middle"/>
+<pin name="SEL_EXT_DIPS.20" x="-45.72" y="-5.08" length="middle"/>
+<pin name="SW1.21" x="-45.72" y="-7.62" length="middle"/>
+<pin name="SW2.22" x="-45.72" y="-10.16" length="middle"/>
+<pin name="VCC.23" x="-45.72" y="-12.7" length="middle"/>
+<pin name="VCC.24" x="-45.72" y="-15.24" length="middle"/>
+<pin name="ANT.12" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="GND.11" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="LED_RED.10" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="RESET.9" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="LED_GRN.8" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT2.7" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="OUT1.6" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="RESERVED.5" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="TX_485.4" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="EXT_DIPS_CLK/CH2.3" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="EXT_DIPS_DI/CH1.2" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND.1" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<text x="-38.1" y="17.78" size="1.778" layer="95">YUL262RTX</text>
+<wire x1="-40.64" y1="22.86" x2="-40.64" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-40.64" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-40.64" y2="22.86" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="YUL262RTX">
+<description>&lt;b&gt;YUL262RTX&lt;/b&gt;
+
+&lt;p&gt;Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;VCC: 3.3-5.0V&lt;/li&gt;
+&lt;li&gt;Frequency: 262.0MHz - 264.0MHz BAND&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -20°C to 85°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="YUL262RTX" x="15.24" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="YUL262RTX">
+<connects>
+<connect gate="G$1" pin="ANT.12" pad="ANT.12"/>
+<connect gate="G$1" pin="EXT_DIPS_CLK/CH2.3" pad="EXT_DIPS_CLK/CH2.3"/>
+<connect gate="G$1" pin="EXT_DIPS_DI/CH1.2" pad="EXT_DIPS_DI/CH1.2"/>
+<connect gate="G$1" pin="EXT_DIPS_EN/CH3.18" pad="EXT_DIPS_EN/CH3.18"/>
+<connect gate="G$1" pin="GIPO0.13" pad="GPIO0.13"/>
+<connect gate="G$1" pin="GIPO1.14" pad="GPIO0.14"/>
+<connect gate="G$1" pin="GND.1" pad="GND.1"/>
+<connect gate="G$1" pin="GND.11" pad="GND.11"/>
+<connect gate="G$1" pin="LED_GRN.8" pad="LED_GRN.8"/>
+<connect gate="G$1" pin="LED_RED.10" pad="LED_RED.10"/>
+<connect gate="G$1" pin="OPTION.19" pad="OPTION.19"/>
+<connect gate="G$1" pin="OUT1.6" pad="OUT1.6"/>
+<connect gate="G$1" pin="OUT2.7" pad="OUT2.7"/>
+<connect gate="G$1" pin="RESERVED.17" pad="RESERVED.17"/>
+<connect gate="G$1" pin="RESERVED.5" pad="RESERVED.5"/>
+<connect gate="G$1" pin="RESET.9" pad="RESET.9"/>
+<connect gate="G$1" pin="RX.16" pad="RX.16"/>
+<connect gate="G$1" pin="SEL_EXT_DIPS.20" pad="SEL_EXT_DIPS.20"/>
+<connect gate="G$1" pin="SW1.21" pad="SW1.21"/>
+<connect gate="G$1" pin="SW2.22" pad="SW2.22"/>
+<connect gate="G$1" pin="TX.15" pad="TX.15"/>
+<connect gate="G$1" pin="TX_485.4" pad="TX_485.4"/>
+<connect gate="G$1" pin="VCC.23" pad="VCC.23"/>
+<connect gate="G$1" pin="VCC.24" pad="VCC.24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
