@@ -103,12 +103,10 @@
 <pad name="10" x="7.62" y="8.89" drill="0.9"/>
 <pad name="11" x="7.62" y="11.43" drill="0.9"/>
 <pad name="12" x="7.62" y="13.97" drill="0.9"/>
-<dimension x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" x3="0" y3="-19.05" textsize="1.27" layer="21"/>
-<dimension x1="-7.62" y1="-15.24" x2="-7.62" y2="24.13" x3="-11.43" y3="4.445" textsize="1.27" layer="21"/>
 <wire x1="-8.89" y1="-15.24" x2="-8.89" y2="24.13" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="24.13" x2="8.89" y2="24.13" width="0.127" layer="21"/>
 <wire x1="8.89" y1="24.13" x2="8.89" y2="-15.24" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-15.24" x2="-7.62" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-15.24" x2="-8.89" y2="-15.24" width="0.127" layer="21"/>
 <text x="-5.08" y="19.05" size="1.27" layer="21">YUL262RTX</text>
 <pad name="13" x="-7.62" y="13.97" drill="0.9" shape="square"/>
 <pad name="1" x="7.62" y="-13.97" drill="0.9" shape="square"/>
